@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+main {
+    background-color: rgb(219, 209, 214);
+    border-radius: 15px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body {
+    background-color: rgb(140, 202, 231);
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    background-image: linear-gradient(to right,rgb(255, 210, 210),  rgb(194, 95, 95), rgb(255, 210, 210));
+}
+h3 {
+    text-align: left;
+    border-left: 15px;
+    background-color: pink;
+}
+p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    width: 20rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    color: black;
+    margin-left: 20px;
+    justify-content: flex-start;
+    display: contents;
+}
+.card-container {
+  display: inline-block;
+  justify-content: space-between; 
+}
+
+
