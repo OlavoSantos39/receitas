@@ -41,5 +41,8 @@ p {
   display: inline-block;
   justify-content: space-between; 
 }
-
-
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+  margin: auto;
+}
