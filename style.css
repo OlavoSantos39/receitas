@@ -18,17 +18,29 @@ h1 {
     background-image: linear-gradient(to right,rgb(255, 210, 210),  rgb(194, 95, 95), rgb(255, 210, 210));
     border-radius: 30px;
     padding: 30px;
+    color: rgb(47, 0, 255);
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
 }
 h3 {
     text-align: left;
     border-left: 15px;
     background-color: pink;
     border-radius: 20px;;
+    color: green;
+}
+h4 {
+  color: green;
 }
 p {
     text-align: justify;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: green;
 }
 .card {
     width: 20rem;
