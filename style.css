@@ -2,7 +2,7 @@
 
 main {
     background-color: rgb(219, 209, 214);
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -41,54 +41,4 @@ p {
 }
 a {
   color: green;
-}
-.card {
-    width: 20rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 0.25rem;
-    overflow: hidden;
-    color: black;
-    margin-left: 20px;
-    justify-content: flex-start;
-    display: contents;
-}
-.card-container {
-  display: inline-block;
-  justify-content: space-between; 
-}
-.search-container {
-  text-align: center;
-  margin-bottom: 20px;
-  margin: auto;
-}
-#search-container {
-  display: flex;
-  align-items: center;
-}
-
-#search-input {
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-right: 8px;
-}
-
-#search-button {
-  padding: 8px 12px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-#search-results {
-  margin-top: 16px;
-}
-
-.search-result-item {
-  margin-bottom: 8px;
-  padding: 8px;
-  border: 1px solid #eee;
 }
